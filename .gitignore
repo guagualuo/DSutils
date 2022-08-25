@@ -2,4 +2,5 @@
 __pycache__
 cluster/__pycache__
 mixture/__pycache__
+plot/__pycache__
 preprocessing/__pycache__
