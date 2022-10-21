@@ -6,8 +6,8 @@ from utils import _to_numpy
 
 
 # https://scikit-learn.org/stable/auto_examples/model_selection/plot_roc.html
-def plot_roc_curve(y_true: np.ndarray,
-                   y_score: np.ndarray,
+def plot_roc_curve(y_true,
+                   y_score,
                    sample_weight=None,
                    multiclass: bool = False,
                    ax=None,
@@ -95,8 +95,8 @@ def plot_roc_curve(y_true: np.ndarray,
     ax.legend(loc="lower right")
 
 
-def plot_precison_recall(y_true: np.ndarray,
-                         y_score: np.ndarray,
+def plot_precison_recall(y_true,
+                         y_score,
                          sample_weight=None,
                          multiclass: bool = False,
                          ax=None,
