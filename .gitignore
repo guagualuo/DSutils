@@ -1,9 +1,3 @@
 .idea
 __pycache__
-cluster/__pycache__
-mixture/__pycache__
-plot/__pycache__
-preprocessing/__pycache__
-model_selection/__pycache__
-meta_learner/__pycache__
 notebooks
